@@ -1,0 +1,27 @@
+# Create login.html
+@"
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Threat Detection System</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css' rel='stylesheet'>
+    <style>body{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);min-height:100vh}</style>
+</head>
+<body class='d-flex align-items-center justify-content-center'>
+    <div class='card p-5 shadow-lg' style='width:400px'>
+        <div class='text-center mb-4'>
+            <i class='fas fa-shield-alt fa-3x text-primary mb-3'></i>
+            <h2>AI Threat Detection</h2>
+            <p class='text-muted'>Cloud Networks Security</p>
+        </div>
+        <a href='/dashboard' class='btn btn-primary btn-lg w-100 mb-3'>
+            <i class='fas fa-rocket'></i> Access Dashboard
+        </a>
+        <small class='text-muted'>ML-Powered • Auto-Response</small>
+    </div>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js'></script>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css' rel='stylesheet'>
+</body>
+</html>
+"@ | Out-File "templates\login.html" -Encoding UTF8
